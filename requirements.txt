@@ -1,2 +1,2 @@
 transformers
-tenserflow >= 2.0
+tenserflow == 2.0

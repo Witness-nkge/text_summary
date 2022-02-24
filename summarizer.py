@@ -7,7 +7,7 @@ max = st.number_input('maximum words')
 min = st.number_input('minimum words')
 
 
-if st.button('submit'):
+if st.button('summarize'):
     summarizer = pipeline("summarization")
     st.write(summarizer(context, min_length=int(min), max_length=int(max)))
 
